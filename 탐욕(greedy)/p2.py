@@ -4,6 +4,8 @@
 
 # 65~90이 대문자 영문
 
+
+"""
 def solution(name):
     cnt = 0
     # name = list(name)
@@ -29,3 +31,4 @@ def solution(name):
     return print(cnt)
 
 solution('JEROEA')
+"""
