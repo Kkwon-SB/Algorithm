@@ -13,3 +13,4 @@ def solution(scoville, K):
         heapq.heappush(scoville, (low_sco_food + low_sco_food2 * 2))
         cnt += 1  
     return cnt if scoville[0] >= K else -1
+    #dd
