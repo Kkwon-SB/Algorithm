@@ -2,6 +2,7 @@ def solution(record):
     members = {}
     answer = []
 
+    
     for i in range(len(record)):            #아이디와 이름을 딕셔너리type으로 저장
         a = record[i].split()
         if len(a) == 2:                     #원래 이름과 이름을 변경하는 경우 catch
