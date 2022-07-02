@@ -12,7 +12,6 @@ def solution(record):
             members[a[1]] = a[2]
 
 
-
     for i in range(len(record)):            #원본의 record 데이터를 순차적으로 돌며, 저장된 id의 이름을 딕셔러니에서 가져온다
         member = record[i].split()
         if member[0] == 'Enter':
