@@ -1,3 +1,5 @@
+##멀쩡한 사각형
+
 #math를 사용한 최대공약수 구하기
 import math
 def solution(w,h):
