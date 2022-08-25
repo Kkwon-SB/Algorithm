@@ -25,3 +25,6 @@ def solution(id_list, report, k):
 
     answer = list(answer1.values())
     return answer
+
+
+# 39min
