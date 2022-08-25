@@ -7,4 +7,4 @@ def solution(arr):
 
     return answer
 
-    #30min
+    # 30min

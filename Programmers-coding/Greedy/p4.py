@@ -2,19 +2,21 @@ def solution(people, limit):
     boat = 1
     people.sort()
 
-    front = 0               #smallest
-    last = len(people)-1    #biggest
+    front = 0  # smallest
+    last = len(people) - 1  # biggest
 
     while (front != last) or (front < last):
 
-        if people[front] + people[last] <= limit: #2명 가능
+        if people[front] + people[last] <= limit:  # 2명 가능
             front += 1
             last -= 1
-        else:                                  #혼자만 가능
+        else:  # 혼자만 가능
             boat += 1
             last -= 1
-    
+
     return boat
+
+
 """
 def solution(people, limit):
     people.sort()
