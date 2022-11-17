@@ -1,2 +1,2 @@
-# coding_practice
+# Algorithm
 This repo is made for recoding process solving coding problem...
