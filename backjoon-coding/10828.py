@@ -7,7 +7,7 @@
 입출력 속도 비교 : sys.stdin.readline > raw_input() > input()
 """
 import sys
-n = int(sys.stdin.readline())
+n = int(sys.stdin.readline()) #input() 시간 초과 문제
 num_list = []
 
 for _ in range(n):
