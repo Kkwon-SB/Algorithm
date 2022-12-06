@@ -1,3 +1,5 @@
+# 점화식 사용
+
 import sys
 num =  int(sys.stdin.readline())
 
