@@ -1,4 +1,9 @@
 # 점화식 사용
+'''
+n이 홀수일 경우 경우의 수는 0이다.
+n = 2의 경우 경우의 수는 3.
+n = 4의 경우경우의 수는 11이다.
+'''
 
 import sys
 num =  int(sys.stdin.readline())
