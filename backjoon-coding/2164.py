@@ -6,8 +6,8 @@ N = int(sys.stdin.readline()) #sys.stdin.readline()은 시간초과 문제를 �
 
 queue = deque() 
 for i in range(N):
-     queue.append(i + 1) 
-     
+    queue.append(i + 1) 
+    
 while len(queue) > 1: 
     queue.popleft() #일반 pop을 하면 가장 오른쪽에 있는, 마지막인덱스가 삭제되기 때문
     queue.append(queue.popleft()) #첫번째 인덱스를 마지막인덱스로 다시 준다. 
