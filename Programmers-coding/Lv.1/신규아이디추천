@@ -1,0 +1,29 @@
+import re
+
+def solution(new_id):
+    #1단계
+    # new_id = new_id.lower()
+    #1 & 2단계
+    new_id = re.sub('[^a-zA-Z0-9\-\_\.]', '', new_id.lower())  
+        # '\'붙여주는 이유는 정규표현식에서 기호는 기호 자체로 받아들여지지 않기 때문에
+    #3
+    new_id = re.sub('\.\.+', '.', new_id)
+    #4
+    new_id = re.sub('^\.|\.$', '', new_id)  #^맨 앞, $맨뒤
+    #5
+    if new_id == '':
+        new_id = 'a'
+    #6 
+    if len(new_id) >= 16:
+        new_id = new_id[:15]
+        new_id = re.sub('\.$', '', new_id)
+    #7
+    if len(new_id) < 3:
+        while len(new_id) != 3:
+            new_id = new_id + new_id[-1]
+
+
+    return (new_id)
+    
+    
+#https://school.programmers.co.kr/learn/courses/30/lessons/72410
