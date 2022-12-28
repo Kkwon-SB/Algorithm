@@ -1,5 +1,5 @@
 #https://school.programmers.co.kr/learn/courses/30/lessons/12940
-#최대공약수와 최소공배수
+#최대공약수와 최소공배수 : 이와 같은 코드로 GCD LCM문제에 접근한다면 두 수의 경우 뿐만 아니라 3개 ,4개도 가능할 것이다.
 
 def solution(a, b):
     answer = []
@@ -17,7 +17,9 @@ def solution(a, b):
 
     return answer
     
-''' #처음 시도했던 방법 : 테스트 문제를 풀 수는 있었지만 아주 비효율적이고, 모든 케이스의 문제를 통과하지도 못했다.
+''' 
+#처음 시도했던 방법 : 테스트 문제를 풀 수는 있었지만 아주 비효율적이고, 모든 케이스의 문제를 통과하지도 못했다.
+
 def solution(n, m):
     answer = []
     max = n if n > m else m
