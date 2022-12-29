@@ -1,3 +1,5 @@
+# https://school.programmers.co.kr/learn/courses/30/lessons/64061
+#64061
 # Type1. 55분 소요 -> 'time error'
 """
 def solution(board, moves):
