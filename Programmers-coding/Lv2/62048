@@ -1,3 +1,6 @@
+#https://school.programmers.co.kr/learn/courses/30/lessons/62048
+#멀쩡한 사각형
+
 # math를 사용한 최대공약수 구하기
 import math
 
