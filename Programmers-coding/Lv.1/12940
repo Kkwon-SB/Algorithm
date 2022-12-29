@@ -1,5 +1,6 @@
-#https://school.programmers.co.kr/learn/courses/30/lessons/12940
-#최대공약수와 최소공배수 : 이와 같은 코드로 GCD LCM문제에 접근한다면 두 수의 경우 뿐만 아니라 3개 ,4개도 가능할 것이다.
+#https://school.programmers.co.kr/learn/courses/30/lessons/12940\
+#최대공약수와 최소공배수
+: 이와 같은 코드로 GCD LCM문제에 접근한다면 두 수의 경우 뿐만 아니라 3개 ,4개도 가능할 것이다.
 
 def solution(a, b):
     answer = []
