@@ -1,4 +1,6 @@
-# 소수 찾기.
+#https://www.acmicpc.net/problem/1978
+# 소수 찾기
+
 inp_num = input()
 numbers = list(map(int, input().split()))
 numbers = [i for i in numbers if i > 1]  # 자연수 중 0,1 제거
