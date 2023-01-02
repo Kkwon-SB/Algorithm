@@ -1,8 +1,6 @@
 #https://www.acmicpc.net/problem/1874
 #스택 수열
 
-#1h
-
 a = int(input())
 b = []
 for _ in range(a):
