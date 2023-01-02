@@ -18,3 +18,14 @@ python에서 쓰이는 함수를 변수명으로 선언한 뒤, 밑에서 그 �
 '''
 
 
+'''
+#더 짧은 코드로 구현한 방법(외부 답 참고)
+subjects = int(input())
+
+scores = list(map(int, input().split()))
+
+mymax = max(scores)
+mysum = sum(scores)
+
+print(mysum * 100 / mymax / subjects)
+'''
