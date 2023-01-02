@@ -30,7 +30,7 @@ for _ in range(n):
   elif order == 'size':
     print(len(num_list))
 
-  elif order == 'empty':
+  elif order == 'empty': 
     if len(num_list) == 0:
       print(1)
     else:
