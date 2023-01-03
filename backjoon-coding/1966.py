@@ -1,6 +1,7 @@
 #https://www.acmicpc.net/problem/1966
 #프린터 큐
 
+
 from collections import deque
 
 a = int(input())
