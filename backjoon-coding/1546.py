@@ -1,3 +1,6 @@
+#https://www.acmicpc.net/problem/1546
+#평균
+
 subjects = int(input())
 
 scores = list(map(int, input().split()))
