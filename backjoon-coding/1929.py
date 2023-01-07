@@ -17,3 +17,4 @@ for i in range(2, int(n**0.5)+1):#배수로 소수 아닌 값 찾기
 for i in range(m, len(A)):
     if A[i] != 0:
         print(i)
+ 
