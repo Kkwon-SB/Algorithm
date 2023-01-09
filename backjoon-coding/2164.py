@@ -1,3 +1,6 @@
+#https://www.acmicpc.net/problem/2164
+#카드2
+
 import sys
 from collections import deque
 N = int(sys.stdin.readline()) #sys.stdin.readline()은 시간초과 문제를 해결하기 위해 쓰여졌다
