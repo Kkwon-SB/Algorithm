@@ -1,3 +1,6 @@
+#https://www.acmicpc.net/problem/2798
+#블랙잭
+
 n, m = list(map(int, input().split(' '))) # 장 수, 최대 합계 수
 data = list(map(int, input().split(' '))) # 카드에 적힌 숫자
 
