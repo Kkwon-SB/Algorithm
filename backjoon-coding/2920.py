@@ -1,3 +1,6 @@
+#https://www.acmicpc.net/problem/2920
+#음계
+
 a = list(map(int, input().split(' ')))
 
 ascending = True
