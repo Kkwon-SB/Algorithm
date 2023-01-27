@@ -1,4 +1,5 @@
-#코드 뿐만 아니라 받아오는 값도 시간을 절약할 수 있는 방법으로 받아오는 방법을 생각하게 되었다.
+#https://www.acmicpc.net/problem/11659
+#구간합구하기4
 
 import sys
 
