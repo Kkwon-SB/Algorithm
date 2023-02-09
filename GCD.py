@@ -1,4 +1,4 @@
-# n개의 최소공배수를 구하는 방법
+# n개의 최대공약수를 구하는 방법
 def solution(arr):
     answer=arr[0]
 
@@ -6,6 +6,3 @@ def solution(arr):
         gcd = lambda a, b: a if not b else gcd(b, a%b)
         answer=gcd(answer, item)
     return answer
-    
-    
-    
