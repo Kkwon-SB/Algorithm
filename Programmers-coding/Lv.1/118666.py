@@ -1,6 +1,6 @@
 #https://school.programmers.co.kr/learn/courses/30/lessons/118666
 #성격유형검사
-
+ 
 score_board = {1:3, 2:2, 3:1, 4:0, 5:1, 6:2, 7:3}
 name_board = {'R':0, 'T':0, 'C':0, 'F':0, 'J':0, 'M':0, 'A':0, 'N':0, }
 names = ['R', 'T', 'C', 'F', 'J','M','A', 'N']
