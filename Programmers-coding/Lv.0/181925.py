@@ -1,4 +1,5 @@
 #https://school.programmers.co.kr/learn/courses/30/lessons/181925
+#수 조작하기 2
 
 #sum변수를 만들어서 새롭게 들어오는 값이랑 차이를 구해 문자 추측
 def solution(numLog):
