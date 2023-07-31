@@ -1,4 +1,5 @@
 #https://school.programmers.co.kr/learn/courses/30/lessons/181926
+#수 조작하기 1
 
 #1. for문으로 돌리면서 값에 따라 적용하는 방법
 #2. count함수로 한번에 측정 후 적용
