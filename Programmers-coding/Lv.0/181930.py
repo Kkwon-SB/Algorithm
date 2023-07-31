@@ -1,4 +1,5 @@
 #https://school.programmers.co.kr/learn/courses/30/lessons/181930
+#주사위 게임 2
 
 def solution(a, b, c):
     answer = 0
