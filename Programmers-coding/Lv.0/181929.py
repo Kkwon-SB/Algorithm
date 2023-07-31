@@ -1,4 +1,5 @@
 #https://school.programmers.co.kr/learn/courses/30/lessons/181929
+#원소들의 곱과 합
 
 def solution(num_list):
     
